@@ -1,0 +1,11 @@
+.blur {
+    filter: blur(3px);
+}
+
+.no-blur {
+    filter: blur(0);
+}
+
+.blur, .no-blur {
+    transition: filter .5s ease-in-out; 
+}

@@ -1,0 +1,19 @@
+.form {
+    width: 50%;
+    min-width: 50%;
+}
+
+.is-cursor-pointer {
+    cursor: pointer;
+}
+
+.is-cursor-default {
+    cursor: none;
+}
+
+@media screen and (max-width: 1023px) {
+    .form {
+        width: 100%;
+        min-width: 100%;
+    }
+}
